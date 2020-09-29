@@ -1,0 +1,7 @@
+folder console_output:
+	L1_trend_filtering_bitcoin.png - ![image](https://i.imgur.com/BKwsw5o.png)
+	
+	
+
+
+
