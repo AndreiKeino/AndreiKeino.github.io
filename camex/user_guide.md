@@ -16,7 +16,7 @@ subwindows.<br><br>
 ### - To clear the console, press the button "Clear console".<br>
 
 ### - To choose the graphics backend, select the desired value in the combobox "Choose plotting backend". <br>
-#### The "inline" option gives plots inlined in the console, which are not resizable. <br>The "qt5" option gives highly customsizable plots in a separate windows.
+#### The "inline" option gives non - resizable plots inlined in the console. <br>The "qt5" option gives highly customsizable plots in a separate windows.
 
 ### To adjust the input parameters for the current example, set the parameter value in the Control window.
 
