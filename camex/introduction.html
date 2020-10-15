@@ -78,17 +78,10 @@ The ℓ1 trend filtering method produces trend estimates x that are piecewise li
 minimize \; (1/2) ||y-x||^2_2+λ||Dx||_1,
 $$</p>
 <p>with variable $x$, problem data $y$ and parameter $λ$, with $λ\geq0$ </p>
-<p>where $D$ is the second difference matrix:</p>
-<p>
-\begin{pmatrix}
-1 &amp; -2 &amp; 1 &amp; 0 &amp; \cdots &amp; 0 &amp; 0 &amp; 0 &amp; 0\\
-0 &amp; 1 &amp; -2 &amp; 1 &amp; \cdots &amp; 0 &amp; 0 &amp; 0 &amp; 0\\
-&amp; &amp; &amp; &amp; \vdots  \\
-0 &amp; 0 &amp; 0&amp; 0 &amp; \cdots &amp; 1 &amp; -2 &amp; 1 &amp; 0\\
-0 &amp; 0 &amp; 0&amp; 0 &amp; \cdots &amp; 0 &amp; 1 &amp; -2 &amp; 1\\
-\end{pmatrix}
-</p>
-
+<p>where $D$ is the second difference matrix with rows</p>
+$$
+[0 \quad \dots \quad 0 \quad -1 \quad 2 \quad -1 \quad 0 \quad \dots \quad 0]
+$$
 <h3 id="Editable-input-parameters">Editable input parameters in the example: problem data $y$ and parameter $λ.$</h3>
 
 <h2 id="example-l1-trend-filtering-plot-for-bitcoin-daily-close-">Example: L1 trend filtering for Bitcoin daily close.</h2>
