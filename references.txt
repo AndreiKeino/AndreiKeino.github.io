@@ -3,3 +3,5 @@ https://pages.github.com/
 my website:
 
 https://andreikeino.github.io/
+
+https://andreikeino.github.io/camex/introduction.html
